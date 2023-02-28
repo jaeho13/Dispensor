@@ -31,17 +31,13 @@ C언어로 코드를 구현하고 연결하여 동작을 실행한다.
 		void init_coke()
 
 		{
-
 			portOut();
-
 			LCDInit();
-
+			
 			setPosition(0, 0);
-
 			writeSTR("coke");
 
 			setPosition(1, 0);
-
 			writeChar('>');
 		}
 
@@ -80,6 +76,7 @@ C언어로 코드를 구현하고 연결하여 동작을 실행한다.
 			setPosition(1, 0);
 			writeChar('>');
 		}
+음료의 종류를 선언해주고, 화면에 표시될 수 있도록 입력한 종류의 음료를 보여준다.
 
 		void init_keypad()
 		{
