@@ -360,3 +360,7 @@ C언어로 코드를 구현하고 연결하여 동작을 실행한다.
 <hr></hr>
 
 ## RESULT
+
+![img](https://user-images.githubusercontent.com/111284065/221828112-cfe592a6-b96b-4802-a7f5-9b25c8c6cdba.jpg)
+![img 1](https://user-images.githubusercontent.com/111284065/221828305-21b18af1-c0e7-4983-ad72-8602b1f1eebb.jpg)
+
