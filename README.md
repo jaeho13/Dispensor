@@ -1,12 +1,14 @@
-DISPENSOR
+# DISPENSOR
 
-PROCESS
+## PROCESS
 
 C언어로 코드를 구현하고 연결하여 동작을 실행한다.
 
-코드
+<hr></hr>
 
-1. 메인 함수를 선언하고 입력을 받으면 실행하는 코드를 작성한다.
+## CODE
+
+### 1. 메인 함수를 선언하고 입력을 받으면 실행하는 코드를 작성한다.
 
 		int main()
 
@@ -23,8 +25,8 @@ C언어로 코드를 구현하고 연결하여 동작을 실행한다.
 
 		return 0;
 		}
-
-2. 키패드 헤더 파일에 4X4 키패드 버튼에 각각 음료의 종류와 음료의 양을 선언해준다.
+		
+### 2. 키패드 헤더 파일에 4X4 키패드 버튼에 각각 음료의 종류와 음료의 양을 선언해준다.
 
 		void init_coke()
 
@@ -183,3 +185,178 @@ C언어로 코드를 구현하고 연결하여 동작을 실행한다.
 			}
 			_delay_ms(10);		
 		}
+### 3. 모터를 양에 따른 회전수를 정하고 시간을 정한다.
+		int i;
+
+		void motor_a()
+		{
+			for(i=0; i<3; i++)
+			{
+				PORTB = 0x01;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_b()
+		{
+			for(i=0; i<6; i++)
+			{
+				PORTB = 0x01;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_c()
+		{
+			for(i=0; i<9; i++)
+			{
+				PORTB = 0x01;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+		void motor_d()
+		{
+			for(i=0; i<12; i++)
+			{
+				PORTB = 0x01;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_a1()
+		{
+			for(i=0; i<3; i++)
+			{
+				PORTB = 0x02;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_b1()
+		{
+			for(i=0; i<6; i++)
+			{
+				PORTB = 0x02;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_c1()
+		{
+			for(i=0; i<9; i++)
+			{
+				PORTB = 0x02;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_d1()
+		{
+			for(i=0; i<12; i++)
+			{
+				PORTB = 0x02;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_a2()
+		{
+			for(i=0; i<3; i++)
+			{
+				PORTB = 0x04;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+		void motor_b2()
+		{
+			for(i=0; i<6; i++)
+			{
+				PORTB = 0x04;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+		void motor_c2()
+		{
+			for(i=0; i<9; i++)
+			{
+				PORTB = 0x04;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+		void motor_d2()
+		{
+			for(i=0; i<12; i++)
+			{
+				PORTB = 0x04;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_a3()
+		{
+			for(i=0; i<3; i++)
+			{
+				PORTB = 0x08;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+		void motor_b3()
+		{
+			for(i=0; i<6; i++)
+			{
+				PORTB = 0x08;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_c3()
+		{
+			for(i=0; i<9; i++)
+			{
+				PORTB = 0x08;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+
+
+		void motor_d3()
+		{
+			for(i=0; i<12; i++)
+			{
+				PORTB = 0x08;
+				_delay_ms(1000);
+			}
+			PORTB = 0x00;
+		}
+<hr></hr>
+
+## RESULT
