@@ -36,7 +36,7 @@ ATmega128은 ATMEL 사가 개발한 8비트 AVR 마이크로 컨트롤러의 meg
 
 #### 펌프 모터
 
-![231 3](https://user-images.githubusercontent.com/111284065/222880846-d8125e06-a780-4210-b01c-4725ebfaccc4.jpg)
+![231 3](https://user-images.githubusercontent.com/111284065/223521277-424c6f98-2f53-4e7d-8df0-54d5d042a1dc.jpg)
 
 
 음료수를 추출하기 위한 펌프 모터입니다.
@@ -47,7 +47,7 @@ ATmega128은 ATMEL 사가 개발한 8비트 AVR 마이크로 컨트롤러의 meg
 
 #### 4X4 키 패드
 
-![25180223view](https://user-images.githubusercontent.com/111284065/222880858-01e279eb-1dbd-47f3-9755-46a3cdf536a2.jpg)
+![25180223view](https://user-images.githubusercontent.com/111284065/223521284-ff0fe7c1-ca4b-4b06-93b0-835391b682f9.jpg)
 
 
 음료수를 고르는 키 패드입니다.
